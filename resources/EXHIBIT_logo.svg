@@ -21,10 +21,10 @@
   <g id="EXHIBIT_logo" clip-path="url(#clip-EXHIBIT_logo)">
     <g id="logo" transform="translate(-32 -32)">
       <g transform="matrix(1, 0, 0, 1, 32, 32)" filter="url(#bg)">
-        <rect id="bg-2" data-name="bg" width="600" height="600" rx="50" fill="#f6f4f7"/>
+        <rect id="bg-2" data-name="bg" width="600" height="600" rx="50" fill="#323538"/>
       </g>
       <g transform="matrix(1, 0, 0, 1, 32, 32)" filter="url(#Ex)">
-        <text id="Ex-2" data-name="Ex" transform="translate(300 467)" font-size="442" font-family="LucidaGrande-Bold, Lucida Grande" font-weight="700"><tspan x="-263.301" y="0">Ex</tspan></text>
+        <text id="Ex-2" data-name="Ex" transform="translate(300 467)" fill="#fff" font-size="442" font-family="LucidaGrande-Bold, Lucida Grande" font-weight="700"><tspan x="-263.301" y="0">Ex</tspan></text>
       </g>
     </g>
   </g>
