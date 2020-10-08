@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="600" viewBox="0 0 600 600">
   <defs>
-    <filter id="Rectangle_26" x="-13" y="-13" width="630" height="630" filterUnits="userSpaceOnUse">
+    <filter id="bg" x="-13" y="-13" width="630" height="630" filterUnits="userSpaceOnUse">
       <feOffset dx="2" dy="2" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="5" result="blur"/>
       <feFlood flood-opacity="0.494"/>
@@ -20,8 +20,8 @@
   </defs>
   <g id="EXHIBIT_logo" clip-path="url(#clip-EXHIBIT_logo)">
     <g id="logo" transform="translate(-32 -32)">
-      <g transform="matrix(1, 0, 0, 1, 32, 32)" filter="url(#Rectangle_26)">
-        <rect id="Rectangle_26-2" data-name="Rectangle 26" width="600" height="600" rx="50" fill="#fff"/>
+      <g transform="matrix(1, 0, 0, 1, 32, 32)" filter="url(#bg)">
+        <rect id="bg-2" data-name="bg" width="600" height="600" rx="50" fill="#f6f4f7"/>
       </g>
       <g transform="matrix(1, 0, 0, 1, 32, 32)" filter="url(#Ex)">
         <text id="Ex-2" data-name="Ex" transform="translate(300 467)" font-size="442" font-family="LucidaGrande-Bold, Lucida Grande" font-weight="700"><tspan x="-263.301" y="0">Ex</tspan></text>
