@@ -3,27 +3,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>EXHIBIT</title>
-    <meta charset="UTF-8">
+    <title>EXHIBIT</title>  <!-- WEBSITE TITLE -->
+    <meta charset="UTF-8">  <!-- DEFINING CHARARCTER SET ENCODING -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- DEFINING DESCRIPTION FOR WEBSITE -->
     <meta name="description" content="This is the EXHIBIT project website GitHub Pages version.">
-    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="icon" href="resources/EXHIBIT_logo.svg">
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">   <!-- BOOTSTRAP CSS REF -->
+    <link rel="stylesheet" href="./css/main.css">           <!-- MAIN CSS REF -->
+    <link rel="icon" href="resources/EXHIBIT_logo.svg">     <!-- EXHIBIT FAVICON -->
 </head>
 <body>
-<script src="./jquery-3.5.1.min.js"></script>
-<script src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
-<div id="header">
+<script src="./jquery-3.5.1.min.js"></script>                       <!-- JQUERY REFERENCE -->
+<script src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>    <!-- BOOTSTRAP JS REF -->
 
+<!-- HEADER -->
+<div id="header">
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">
             <!-- NAVBAR LOGO -->
-            <!--<img src="./resources/Logo_light.png" width="30" height="30" class="d-inline-block align-top" alt="">-->
             EXHIBIT
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            what is this button?
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -31,6 +33,7 @@
                 <!-- HOME BUTTON -->
                 <li class="navbtn nav-item active">
                     <a class="btn btn-primary my-2 my-sm-0" href="https://cearamullins.github.io/exhibitproject/index.html">
+                        <!-- HOME ICON -->
                         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
                             <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
@@ -40,6 +43,7 @@
                 <!-- TEMPLATE BUTTON -->
                 <li class="navbtn nav-item active">
                     <a class="btn btn-primary my-2 my-sm-0" href="https://cearamullins.github.io/exhibitproject/template.html">
+                        <!-- BRUSH ICON -->
                         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-brush-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" d="M15.825.12a.5.5 0 0 1 .132.584c-1.53 3.43-4.743 8.17-7.095 10.64a6.067 6.067 0 0 1-2.373 1.534c-.018.227-.06.538-.16.868-.201.659-.667 1.479-1.708 1.74a8.117 8.117 0 0 1-3.078.132 3.658 3.658 0 0 1-.563-.135 1.382 1.382 0 0 1-.465-.247.714.714 0 0 1-.204-.288.622.622 0 0 1 .004-.443c.095-.245.316-.38.461-.452.393-.197.625-.453.867-.826.094-.144.184-.297.287-.472l.117-.198c.151-.255.326-.54.546-.848.528-.739 1.2-.925 1.746-.896.126.007.243.025.348.048.062-.172.142-.38.238-.608.261-.619.658-1.419 1.187-2.069 2.175-2.67 6.18-6.206 9.117-8.104a.5.5 0 0 1 .596.04z"/>
                         </svg>
@@ -49,6 +53,7 @@
                 <!-- EXHIBIT BUTTON -->
                 <li class="navbtn nav-item active">
                     <a class="btn btn-primary my-2 my-sm-0" href="https://cearamullins.github.io/exhibitproject/populate.html">
+                        <!-- PICTURE ICON -->
                         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-card-image" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9c0 .013 0 .027.002.04V12l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094L15 9.499V3.5a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13zm4.502 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
                         </svg>
@@ -59,14 +64,18 @@
                 <li class="navbtn nav-item dropdown">
                     <div class="dropdown">
                         <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <!-- TEAM ICON -->
                             <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-people-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
                             </svg>
                             Project Team
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <!-- AA'ISHA DROPDOWN ITEM -->
                             <a class="dropdown-item" href="#">Aa'isha Dout</a>
+                            <!-- DIVIDER -->
                             <div class="dropdown-divider"></div>
+                            <!-- CEARA DROPDOWN ITEM -->
                             <a class="dropdown-item" href="#">Ceara Mullins</a>
                         </div>
                     </div>
@@ -74,43 +83,44 @@
                 <!-- DOWNLOADS BUTTON -->
                 <li class="navbtn nav-item active">
                     <a class="btn btn-primary my-2 my-sm-0" href="https://cearamullins.github.io/exhibitproject/downloads.html">
+                        <!-- DOWNLOAD ICON -->
                         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-file-earmark-arrow-down-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" d="M2 2a2 2 0 0 1 2-2h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm7 2l.5-2.5 3 3L10 5a1 1 0 0 1-1-1zm-.5 3.5a.5.5 0 0 0-1 0v3.793l-1.146-1.147a.5.5 0 0 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 11.293V7.5z"/>
                         </svg>
                         Downloads
                     </a>
                 </li>
-            </ul>
-          
+            </ul> 
         </div>
     </nav>
-
 </div>
 
-<div id="jumbotron" class="jumbotron">
-    <h1 class="display-4">Hello, world!</h1>
-    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-    <hr class="my-4">
-    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-    <p class="lead">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-    </p>
+<!-- JUMBOTRON -->
+<div id="jumbotron">
+    <div class="jumbotron">
+        <h1 class="display-4">Hello, world!</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </p>
+    </div>
 </div>
 
+<!-- CONTENT -->
 <div id="workspace">
 
 </div>
-<div id="footer">
 
-    <!-- FOOTER -->
+<!-- FOOTER -->
+<div id="footer">
     <footer class="page-footer font-small blue pt-4">
-        <!-- Footer Links -->
         <div class="container-fluid text-center text-md-left">
-            <!-- Grid row -->
+            <!-- FOOTER CONTENT -->
             <div class="row">
-                <!-- Grid column -->
+                <!-- CONTACT INFO -->
                 <div class="col-md-6 mt-md-0 mt-3">
-                    <!-- Content -->
                     <h5 class="text-uppercase">Contact us</h5>
                     <ul class="list-unstyled">
                         <li><b>Team Members</b></li>
@@ -120,11 +130,8 @@
                         <li><p>Professor Hussein Suleman <a href="mailto:hussein@cs.uct.ac.za">hussein@cs.uct.ac.za</a></p></li>
                     </ul>
                 </div>
-                <!-- Grid column -->
-                <hr class="clearfix w-100 d-md-none pb-3">
-                <!-- Grid column -->
+                <!-- LINKS -->
                 <div class="col-md-3 mb-md-0 mb-3">
-                    <!-- LINKS -->
                     <h5 class="text-uppercase">Links</h5>
                     <ul class="list-unstyled">
                         <li><a href="./template.html">Template Creation</a></li>
@@ -133,14 +140,13 @@
                         <li><a href="#!">Link 4</a></li>
                     </ul>
                 </div>
-                <!-- Grid column -->
+                <!-- UCT AND CS DEPT LOGOS -->
                 <div class="col-md-1 col-md-offset-1 text-center">
-                    <img src="./resources/footer_logo.png" alt="UCT and CS Department logo">
+                    <a href="https://www.cs.uct.ac.za/"><img src="./resources/footer_logo.png" alt="UCT and CS Department logo"></a>
 				</div>
             </div>
         </div>
-    
-        <!-- Copyright -->
+        <!-- COPYRIGHT -->
         <div class="footer-copyright text-center py-3">© 2020 Copyright:<p> Aa'isha Dout & Ceara Mullins</p></div>
     </footer>
 </div>
