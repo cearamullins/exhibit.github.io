@@ -26,3 +26,7 @@
 .gradient-button:active {
     background: #5203FF;
 }
+
+#jumbotron {
+    text-align: center;
+}
