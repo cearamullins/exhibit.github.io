@@ -28,9 +28,14 @@
 }
 
 #jumbotron {
+    background-image: url("./resources/");
     text-align: center;
 }
 
 #workspace {
     margin-left: 20px;
+}
+
+#footer {
+    background-color: #E9ECF0;
 }
