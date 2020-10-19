@@ -28,7 +28,7 @@
 }
 
 #jumbotron {
-    background-image: url("./resources/");
+    background-image: "./resources/jumbo_bg_img.png";
     text-align: center;
 }
 
