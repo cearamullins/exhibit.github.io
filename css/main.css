@@ -29,7 +29,10 @@
 
 #jumbotron {
     text-align: center;
-    background-image: url("./resources/jumbo_img.png");
+    background-image: url("./resources/ndebele_pattern.png");
+    background-size: 200px 100px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
 }
 
 #workspace {
