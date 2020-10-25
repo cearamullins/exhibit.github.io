@@ -29,7 +29,7 @@
 
 #jumbotron {
     text-align: center;
-    background-image: "./resources/jumbo_img.png";
+    background-image: url("./resources/jumbo_img.png");
 }
 
 #workspace {
