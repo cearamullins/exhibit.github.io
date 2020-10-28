@@ -2,6 +2,10 @@
     padding: 5px;
 }
 
+.btn-danger {
+    background-color: #EB4034;
+}
+
 .gradient-button {
     color: rgb(255, 255, 255);
     font-size: 25px;
@@ -13,26 +17,18 @@
     font-style: normal;
     font-variant: normal;
     text-transform: none;
-    background-image: linear-gradient(to right, rgb(0, 128, 255) 0%, rgb(82, 3, 255) 100%);
+    background-image: linear-gradient(to right, #FF271F 0%, #FF972A 100%);
     box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px;
-    border: 0px solid rgb(28, 110, 164);
+    border: 0px solid #E60800;
     display: inline-block;
 }
 
 .gradient-button:hover {
-    background: #0080FF;
+    background: #E60800;
 }
 
 .gradient-button:active {
-    background: #5203FF;
-}
-
-#jumbotron {
-    text-align: center;
-    background-image: url("./resources/ndebele_pattern.png");
-    background-size: 200px 100px;
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
+    background: #FF972A;
 }
 
 #workspace {
@@ -40,8 +36,30 @@
     margin-right: 100px;
 }
 
+.jumbotron {
+    text-align: center;
+    color: #282E33;
+    background-image: url("../resources/ExhibitJumbo_test.png");
+    background-position: 0px -100px;
+    background-size: cover;
+}
+
 #footer {
-    background-color: #E9ECF0;
+    background-color: #282E33;
+    color: white;
+}
+
+.footer-link:link {
+    color: #FFAF38;
+}
+.footer-link:hover {
+    color: #FF9B05;
+}
+.footer-link:visited {
+    color: #FFAF38;
+}
+.footer-link:active {
+    color: #FF9B05;
 }
 
 #aaisha-icon {
