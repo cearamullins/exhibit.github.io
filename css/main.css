@@ -39,7 +39,7 @@
 .jumbotron {
     text-align: center;
     color: #282E33;
-    background-image: url("../resources/ExhibitJumbo_test.png");
+    background-image: url("../resources/ExhibitJumbo.png");
     background-position: 0px -100px;
     background-size: cover;
 }
