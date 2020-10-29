@@ -49,6 +49,23 @@
     color: white;
 }
 
+.content-link:link {
+    color: #EB4034;
+    font-weight: bold;
+}
+.content-link:hover {
+    color: #b82f25;
+    font-weight: bold;
+}
+.content-link:visited {
+    color: #EB4034;
+    font-weight: bold;
+}
+.content-link:active {
+    color: #b82f25;
+    font-weight: bold;
+}
+
 .footer-link:link {
     color: #FFAF38;
 }
@@ -70,4 +87,20 @@
 #ceara-icon {
     width: 200px;
     padding-top: 30px;
+}
+
+.portfolio {
+    text-align: center;
+    margin-left: 350px;
+    width: 210px;
+    height: 480px;
+    border: 2px solid #FFAF38;
+    border-radius: 10px;
+}
+
+.downloads-divider {
+    width: 100%;
+    border-width: 2px;
+    text-align: center;
+    color: black;
 }
