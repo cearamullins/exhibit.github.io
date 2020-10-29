@@ -51,19 +51,15 @@
 
 .content-link:link {
     color: #EB4034;
-    font-weight: bold;
 }
 .content-link:hover {
     color: #b82f25;
-    font-weight: bold;
 }
 .content-link:visited {
     color: #EB4034;
-    font-weight: bold;
 }
 .content-link:active {
     color: #b82f25;
-    font-weight: bold;
 }
 
 .footer-link:link {
@@ -94,8 +90,6 @@
     margin-left: 350px;
     width: 210px;
     height: 480px;
-    border: 2px solid #FFAF38;
-    border-radius: 10px;
 }
 
 .downloads-divider {
@@ -103,4 +97,19 @@
     border-width: 2px;
     text-align: center;
     color: black;
+}
+
+.dropdown-item:active {
+    background-color: #FFAF38;
+}
+
+.vertical-line {
+    border-left: 1px solid black;
+    height: 450px;
+}
+
+.grid {
+    position: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
