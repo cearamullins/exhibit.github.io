@@ -7,7 +7,7 @@
 }
 
 .gradient-button {
-    color: rgb(255, 255, 255);
+    color: #FFFFFF;
     font-size: 25px;
     line-height: 25px;
     padding: 15px;
@@ -18,7 +18,7 @@
     font-variant: normal;
     text-transform: none;
     background-image: linear-gradient(to right, #FF271F 0%, #FF972A 100%);
-    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+    box-shadow: #000000 0px 0px 0px 0px;
     border: 0px solid #E60800;
     display: inline-block;
 }
@@ -46,7 +46,7 @@
 
 #footer {
     background-color: #282E33;
-    color: white;
+    color: #FFFFFF;
 }
 
 .content-link:link {
@@ -85,31 +85,6 @@
     padding-top: 30px;
 }
 
-.portfolio {
-    text-align: center;
-    margin-left: 350px;
-    width: 210px;
-    height: 480px;
-}
-
-.downloads-divider {
-    width: 100%;
-    border-width: 2px;
-    text-align: center;
-    color: black;
-}
-
 .dropdown-item:active {
     background-color: #FFAF38;
-}
-
-.vertical-line {
-    border-left: 1px solid black;
-    height: 450px;
-}
-
-.grid {
-    position: auto;
-    display: flex;
-    flex-wrap: wrap;
 }
