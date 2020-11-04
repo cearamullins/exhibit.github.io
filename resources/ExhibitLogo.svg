@@ -1,5 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="600" viewBox="0 0 600 600">
   <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff3100"/>
+      <stop offset="1" stop-color="#ff7f00"/>
+    </linearGradient>
     <filter id="bg" x="-13" y="-13" width="630" height="630" filterUnits="userSpaceOnUse">
       <feOffset dx="2" dy="2" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="5" result="blur"/>
@@ -14,14 +18,14 @@
       <feComposite operator="in" in2="blur-2"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <clipPath id="clip-EXHIBIT_logo">
+    <clipPath id="clip-ExhibitLogo">
       <rect width="600" height="600"/>
     </clipPath>
   </defs>
-  <g id="EXHIBIT_logo" clip-path="url(#clip-EXHIBIT_logo)">
+  <g id="ExhibitLogo" clip-path="url(#clip-ExhibitLogo)">
     <g id="logo" transform="translate(-32 -32)">
       <g transform="matrix(1, 0, 0, 1, 32, 32)" filter="url(#bg)">
-        <rect id="bg-2" data-name="bg" width="600" height="600" rx="50" fill="#323538"/>
+        <rect id="bg-2" data-name="bg" width="600" height="600" rx="50" fill="url(#linear-gradient)"/>
       </g>
       <g transform="matrix(1, 0, 0, 1, 32, 32)" filter="url(#Ex)">
         <text id="Ex-2" data-name="Ex" transform="translate(300 467)" fill="#fff" font-size="442" font-family="LucidaGrande-Bold, Lucida Grande" font-weight="700"><tspan x="-263.301" y="0">Ex</tspan></text>
