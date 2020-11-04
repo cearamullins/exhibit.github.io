@@ -127,38 +127,62 @@
         <!-- PROBLEM STATEMENT -->
         <h3>Problem Statement</h3>
         <p>
-
-
-
+	Styling options for easy-to-use presentation tools that allow for incorporation of cultural heritage artefacts, such as Omeka, are often restricted in the styling options they offer users.
+	This includes only allowing users to select from a set of themes, unless they have knwledge of markup languages and are willing to navigate beyond the high-level exhibition creation interface.
+	
+	Once an exhibition is completed using these or more conventional, slide-oriented tools, such as PowerPoint, there is also not an easy way to make them publically available -- 
+	or at least, we found during requirements gathering that users were not aware of such tools (such as Slideshare) or rarely used them.
         </p>
 
         <!-- OBJECTIVES -->
         <h3>Objectives</h3>
         <p>
-
-            
-
+	The main goal was to create a way to lay out and style HTML digital exhibitions, where the process was easy to use and required no knowledge of markup language. This task included providing intuitive styling methods,
+	while still allowing those preferring/requiring more precision to use alternative methods.
+	
+	On the presentation side, the objective was to create an engaging overview of presentations and templates created by users of the system, that provides important information at a glance and allows filtering of these results. 
+	To further address sharing and interaction, downloads (handled by project partner, Ceara -- link to your page instead?) and commenting functionality was also regarded as necessary.
         </p>
 
-        <!-- SERVICES -->
-        <h3>Services</h3>
-            <!-- WHAT IS A TEMPLATE -->
-            <p>
-                <a class="content-link" href="./index.html"><h5>What is a template?</h5></a>
-                
-            </p>
-
+        <!-- SERVICES, I think the title should be modified a bit to this -->
+        <h3>Components and Services</h3>
+           
             <!-- LANDING PAGE -->
             <p>
                 <a class="content-link" href="./index.html"><h5>Landing Page</h5></a>
+		 The landing page was designed to be a minimalistic overview of the main features provided by the system, namely template creation, population and browsing.
+		 This page introduces the basic system-wide user authentication system. Users may sign up with only a unique, non-empty username and non-empty password. This is
+		 to manage Collaboration, discussed in the Template Creation section. Users are not required to set up an account to use the system, but will have their templates
+		 attributed to "Anonymous User" if so, to prevent confusion with entries clashing with logged in users. 
+		  
+		 From this page, users may navigate to Template Creation, which opens a blank template; Archival Exploration, which allows users to explore contents from Bleek and LLoyd collection; and the Browse Page. 
                 
             </p>
 
             <!-- TEMPLATE CREATION -->
             <p>
                 <a class="content-link" href="./template.html"><h5>Template Creation</h5></a>
-
-
+		 <!-- WHAT IS A TEMPLATE, I think this works better here but lemme know if you disagree -->
+            	<p>
+                	<a class="content-link" href="./index.html"><h6>What is a template?</h6></a>
+			Templates define the layout and style of a digital presentation, including colour, length and elements. Placeholders are used where images and text would exist in the final presentation.
+			!!Pic of HTML template with placholder backgrounds!!
+            	</p>
+	    	Template Creation can be accessed in two contexts: from a blank template ("new" mode), or an exisitng one ("edit" mode). In new mode, only a title placeholder os provided. 
+	    	In edit mode, all existing styles and elements are loaded first.
+	   	!!GIFS for both?!!
+	    	Template styling options apply to the entire template, and can be modified via buttons on the top control panel. These include options like background colour, length and adding elements. Elements are added based on scroll position.
+	    	Undo/redo functionality is also located here as it applies template-wide. These control changes to colours, additions, deletions etc.
+	    
+	    	Individual elements can be resized and places using direct manipulation, as hinted at by the corner triangles. They can be styled by clicking the edit button, which brings up the element edit menu.
+	    	This menu includes basic operations such as resizing (for those who prefer exact values), and also style options we know from visualisation are useful to emphasise information, such as layer and shadow to
+		affect deoth perception. Changing element colour is also an important factor, and based on user feedback we included a palette for users to track colours used and apply them to other elements.
+	    	The edit menu features depend on the element, for example only textbox elements have options to change text alignment, padding and background colour.
+	    
+	   	The template creator mode again comes into play with saving: with a blank template, users have the option to save their template only, while in edit mode, they can save as new or update the template.
+	    	Users may only update a template if they are logged in as the creator or a collaborator for that template, otherwise they must save as new. Collaborators are defined at the save stage -- users may add any registered user as
+	    	a collaborator.
+	    	
             </p>
 
             <!-- TEMPLATE AND EXHIBIT BROWSE -->     
