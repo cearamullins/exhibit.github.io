@@ -127,21 +127,24 @@
         <!-- PROBLEM STATEMENT -->
         <h3>Problem Statement</h3>
         <p>
-	Styling options for easy-to-use presentation tools that allow for incorporation of cultural heritage artefacts, such as Omeka, are often restricted in the styling options they offer users.
-	This includes only allowing users to select from a set of themes, unless they have knwledge of markup languages and are willing to navigate beyond the high-level exhibition creation interface.
+	Styling options for easy-to-use presentation tools that allow for incorporation of cultural heritage artefacts, such as Omeka, are often restrictive in the styling options they offer users.
+	This includes only allowing users to select from a set of themes, unless they have knowledge of markup languages and are willing to navigate beyond the high-level exhibition creation interface.
+    </p>
+    <p>
+        Once an exhibition is completed using these or more conventional, slide-oriented tools, such as PowerPoint, we found through requirements gathering that users rarely shared them outside of a once-off presentation. Some expressed familiarity with marketplaces such as Slideshare but said they do not use such tools.
+    </p>
 	
-	Once an exhibition is completed using these or more conventional, slide-oriented tools, such as PowerPoint, there is also not an easy way to make them publically available -- 
-	or at least, we found during requirements gathering that users were not aware of such tools (such as Slideshare) or rarely used them.
-        </p>
+      
 
         <!-- OBJECTIVES -->
         <h3>Objectives</h3>
         <p>
 	The main goal was to create a way to lay out and style HTML digital exhibitions, where the process was easy to use and required no knowledge of markup language. This task included providing intuitive styling methods,
 	while still allowing those preferring/requiring more precision to use alternative methods.
-	
-	On the presentation side, the objective was to create an engaging overview of presentations and templates created by users of the system, that provides important information at a glance and allows filtering of these results. 
-	To further address sharing and interaction, downloads (handled by project partner, Ceara -- link to your page instead?) and commenting functionality was also regarded as necessary.
+        </p>
+        <p>
+	On the public presentation side, the objective was to create an engaging overview of presentations and templates created by users of the system, that provides important information at a glance and allows filtering of these results. 
+	To further address sharing and interaction, downloads (handled by project partner, Ceara) and commenting functionality was also regarded as necessary.
         </p>
 
         <!-- SERVICES, I think the title should be modified a bit to this -->
@@ -149,7 +152,7 @@
            
             <!-- LANDING PAGE -->
             <p>
-                <a class="content-link" href="./index.html"><h5>Landing Page</h5></a>
+                <a class="content-link" href="#"><h5>Landing Page</h5></a>
 		The landing page was designed to be a minimalistic overview of the main features provided by the system, namely template creation, population and browsing.
 		 This page introduces the basic system-wide user authentication system. Users may sign up with only a unique, non-empty username and non-empty password. This is
 		 to manage Collaboration, discussed in the Template Creation section. Users are not required to set up an account to use the system, but will have their templates
@@ -171,7 +174,8 @@
             In edit mode, all existing styles and elements from a saved template are loaded first. Templates as a whole can be styled, such as modifying background colour. Individual elements (textbox and image placeholders) can also be styled. 
             Options include background colour, border width and text alignment. 
 
-	    	Click on the Template Creation heading above or in the navigation bar to see more information via the feature page.
+            <b>Click on the Template Creation heading above or in the navigation bar to see more information via the feature page.</b>
+	    	
 	    	
             </p>
 
@@ -181,42 +185,85 @@
                 The Browse Page offers an overview of all templates and exhibits made by users of the system. Each template/exhibit is given a card with overview data.
                 Filtering of cards can be done via name tags or title search. Commenting functionality is provided for any user to leave their thoughts on a template or exhibit.
                 
-                Click on the Template and Exhibit Browse heading above or "browse" in the navigation bar to see more information via the feature page.
+                <b>Click on the Template and Exhibit Browse heading above or "Browse" in the navigation bar to see more information via the feature page.</b>
+                
             </p>
 
         <p></p>
 
         <!-- EVALUATION -->
         <h3>Evaluation</h3>
-        <p></p>
+        <p>Testing was conducted entirely under the lockdown restrictions necessitated by the COVID-19 pandemic, therefore online platforms such as Google Forms and video-conferencing tools were used throughout.</p>
+        <p>
+            The first "evaluation" occurred at the prototype phase. Feedback from the video-conferencing "Wizard of Oz" testing informed the selection of styling options, element representation (their background textures and resize handles)
+            and layout of the editing options. For the Browse Page, we originally intended to display templates and exhibits in a carousel, but revised this to cards when feedback indicated users would find it cumbersome.
+        <p>
+            As mentioned in the overview on the home page, we conducted a single heuristic evaluation and usability study for the entire system. However, we included sections in our surveys to evaluate components individually. 
+        </p>
+           
+        <p>
+            The heuristic evaluation found the main issues with template creation to be the lack of information about system status and lack of help/documentation.
+            These problems were given significant severity and were therefore addressed first. For system status, we added information about login state and communicated the status of a template save
+            (an issue mentioned by multiple evaluators) via a GIF and "toasts" (small pop-ups that disappear after a set amount of time). User assistance was addressed by a help menu with instructions
+            and GIFs to illustrate them. Toasts were also used for error prevention, another issue evaluators raised, for example a toast is used to warn users if they attempt to save a template with a blank name, or
+            populate a template that has not yet been saved. Positive feedback from the evaluators commented on the interface and its consistency and the usefulness of features included (they considered all of the editing options useful, especially undo/redo).
+        </p>
+
+        <p>
+            The usability study incoporated the views of our target population since half of the respondents were cultural heritage professionals.
+            In terms of the System Usability Scale portion of the questionnaire, the system received average scores with regards to usefulness, with most students responding neturally
+            and the cultural heritage experts responding strongly postively. Most importantly for our objectives, all the participants responded that the system had a shallow learning curve and did not require
+            technical experience to use. The system also received high scores for questions related to satisfaction with the system. Raw data can be found on the downloads page. Feedback relating to the Template Creation stage
+            was positive about the usefulness of features, and the simple canvas-like layout. Participants also spoke positvely about the Browse Page interface, with several users saying it was their favourite feature.
+            Follow-up video-conferencing interviews allowed us to gain some more insight from participants, for example many were willing to elaborate on their answers to the open-ended questions of the survey.
+
+        </p>
 
         <!-- CONCLUSIONS -->
         <h3>Conclusions</h3>
-        <p></p>
+        <p>
+            The project as a whole aimed to develop an online tool for creating digital exhibitions, with this portion of the project focusing on customisation of styles and a space to view other system users’ creations.
+            System testing verified that functional requirements were met. Non-functional requirements such as accessibility to non-technical users
+            were assessed by usability and heuristic evaluations, with representatives from both expert and non-expert groups. Results suggest that the system met these goals. However, the unique circumstances of the pandemic must be taken into account when considering the results of user testing, as usual
+            conditions to ensure integrity of the evaluations could not be met.
+        </p>
 
         <!-- FUTURE WORK -->
         <h3>Future Work</h3>
         <p>
-	    Template Creator: some users suggested incoporating more shapes for placeholders at this stage. The addition of patterns/textures is also something that could be incoporated for template and element
-	    backgrounds.
+	    Template Creator: Some users suggested incoporating more shapes for placeholders at this stage. The addition of patterns/textures is also something that could be incoporated for template and element
+        backgrounds.
+        </p>
+    
+        <p>
+            Browse Page: Support for different languages or translate features would be helpful to assist non-English language speakers, and could be achieved via integration of open source translation software.
+        </p>
+	   
+		<p>
+            General: A more robust user account system could be incoporated, using external software. A personal page, with only a user's templates, exhibits and latest comments on these would also be a useful addition.
+        </p>
+	   
 	
-	    Browse Page: An automatic translation feature for South African languages would help non-Enlgish speakers navigate this page -- while the other pages have instructional GIFs that could bypass this issue, 
-	    content is still hard to find since all template and exhibit titles are in English. 
-		
-	    General: A more robust user account system could be incoporated, using external software. A personal page, with only a user's templates, exhibits and latest comments on these would also be a useful addition.
-	</p>
 
         <!-- HORIZONTAL DIVIDER -->
         <hr class="horizontal-divider">
         
         <!-- DOWNLOADS -->
         <h3>Downloads</h3>
-        <a class="content-link" href="./downloads/test_img.png" download>
+        <a class="content-link" href="./downloads/Tools_for_Digital_Presentations_of_Cultural_Heritage_ArtefactsDTXAAI001.pdf" download>
             <svg style="margin-top: 5px;" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-download" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
                 <path fill-rule="evenodd" d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
             </svg>
-            Test Image
+            Literature Review
+        </a>
+        <br>
+        <a class="content-link" href="./downloads/FinalReportDTXAAI001.pdf" download>
+            <svg style="margin-top: 5px;" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-download" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+                <path fill-rule="evenodd" d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+            </svg>
+            Final Report
         </a>
 
     </div>
