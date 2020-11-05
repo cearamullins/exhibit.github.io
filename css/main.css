@@ -88,3 +88,12 @@
 .dropdown-item:active {
     background-color: #FFAF38;
 }
+
+.demo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.demo-video {
+    width: 700px;
+}
