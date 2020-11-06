@@ -9,7 +9,7 @@
     <!-- DEFINING DESCRIPTION FOR WEBSITE -->
     <meta name="description" content="This is the EXHIBIT project website GitHub Pages version.">
     <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">   <!-- BOOTSTRAP CSS REF -->
-    <link rel="stylesheet" href="./css/main.css">           <!-- MAIN CSS REF -->
+    <link rel="stylesheet" href="./css/main.css">          <!-- MAIN CSS REF -->
     <link rel="icon" href="resources/ExhibitLogo.svg">     <!-- EXHIBIT FAVICON -->
 </head>
 <body>
@@ -122,29 +122,57 @@
 <!-- CONTENT -->
 <div id="workspace">
     <a class="content-link" href="#"><h5>Template and Exhibit Browse</h5></a>
-<p>
-    This browse page offers an overview of all templates and exhibits made by users of the system. Each template/exhibit is given a card with overview data, such as the title and creator. 
-    Images for templates are screenshots of their content, taken upon a template save, that give a user an preview of how the template may be used. Exhibit cover images are shown on their cards.
-    Options that can be taken for both templates and exhibits are viewing comments and downloading. Templates can be edited, which opens the Template Editor in "edit" mode, or populated directly,
-    which takes the user to the Population feature. Exhibits can be viewed from their cards.
-</p>
-<p>
-    Filtering can be done via name tags or title search. The name tag filter field incorporates the Taggle.js library and allows adding tags by typing them and deleting a tag on click.
-    Title search uses jQuery to hide all cards without the requested sequence, and updates with each keypress.
+    <p>
+        This browse page offers an overview of all templates and exhibits made by users of the system. Each template/exhibit is given a card with overview data, such as the title and creator. 
+        Images for templates are screenshots of their content, taken upon a template save, that give a user an preview of how the template may be used. Exhibit cover images are shown on their cards.
+        Options that can be taken for both templates and exhibits are viewing comments and downloading. Templates can be edited, which opens the Template Editor in "edit" mode, or populated directly,
+        which takes the user to the Population feature. Exhibits can be viewed from their cards.
+    </p>
+    <p>
+        Filtering can be done via name tags or title search. The name tag filter field incorporates the Taggle.js library and allows adding tags by typing them and deleting a tag on click.
+        Title search uses jQuery to hide all cards without the requested sequence, and updates with each keypress.
+        
+    </p>
+    <figure>
+        <img src="resources/browse.gif" alt="filtering gif" >
+        <figcaption style="font-size: small;">A GIF of the filtering functionality</figcaption>
+    </figure>
+    <p>
+        Comments for a template/exhibit can be viewed by clicking the comments button, which triggers a horizontal "flip" CSS animation to display them on the "back" of cards.
+        Any user may leave a comment, no login is necessary. Comments can be sent using the Add button or by pressing the enter key.  
+    </p>
+    <figure>
+        <img src="resources/comment.gif" alt="comment gif">
+        <figcaption style="font-size: small;">A GIF of the commenting functionality</figcaption>
+    </figure>
+
+    <a class="content-link" href="#"><h5>Archive Browse</h5></a>
+    <p>
+        This browse page offers an overview of all archival material stored in the EXHIBIT system. From this page, archival content can be incorporated into the exhibition population system via a 
+        personalised tray. The archival items are stored as cards to remain consistent with the template and exhibit browse page. These cards show a preview of the artefact with a description of the item 
+        and are titled with the collection that the artefact is from.
+    </p>
+
+    <figure>
+        <img src="resources/ceara_gifs/archive_browse.gif" alt="filtering gif" >
+        <figcaption style="font-size: small;">Showcasing the archive browse page</figcaption>
+    </figure>
+
+    <p>
+        The artefacts can be opened for a more detailed view of the objects' metadata. All available metadata is viewable when opening an artefact 
+        in order to retain the rich cultural heritage of the items stored in the archive. These archival items can be added to the tray via a button on the card, or a button when previewing the card's metadata. 
+        Toast messages are used to notify when an item has been added to the tray. The tray items are stored locally so that they can be used in the exhibit population phase and so that if a user does not clear their 
+        personalised tray, the system will still be able to retrieve their previous tray, thus having a type of "history" system.
+    </p>
     
-</p>
-<figure>
-    <img src="resources/browse.gif" alt="filtering gif" >
-    <figcaption style="font-size: small;">A GIF of the filtering functionality</figcaption>
-</figure>
-<p>
-    Comments for a template/exhibit can be viewed by clicking the comments button, which triggers a horizontal "flip" CSS animation to display them on the "back" of cards.
-    Any user may leave a comment, no login is necessary. Comments can be sent using the Add button or by pressing the enter key.  
-</p>
-<figure>
-    <img src="resources/comment.gif" alt="comment gif">
-    <figcaption style="font-size: small;">A GIF of the commenting functionality</figcaption>
-</figure>
+    <figure>
+        <img src="resources/ceara_gifs/artefact_preview.gif" alt="filtering gif" >
+        <figcaption style="font-size: small;">Previewing an artefact on the archive browse page</figcaption>
+    </figure>
+    <figure>
+        <img src="resources/ceara_gifs/artefact_add.gif" alt="filtering gif" >
+        <figcaption style="font-size: small;">Adding artefacts to create a personalised tray</figcaption>
+    </figure>
     
 </div>
 
